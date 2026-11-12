@@ -42,7 +42,7 @@ Task3_Weather_App/
 Example:
 
 ```javascript
-var apiKey = "YOUR_API_KEY";
+var apiKey = "1e8a2b7ca4b58d7940716460e027d5aa";
 ```
 
 5. Save the file.
