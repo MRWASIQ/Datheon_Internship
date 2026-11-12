@@ -1,15 +1,10 @@
-
 var menuToggle = document.getElementById("menuToggle");
 var navLinks = document.getElementById("navLinks");
 var themeToggle = document.getElementById("themeToggle");
-
 var projectModal = document.getElementById("projectModal");
 var modalTitle = document.getElementById("modalTitle");
 var modalDescription = document.getElementById("modalDescription");
 var modalClose = document.getElementById("modalClose");
-
-
-// Mobile Navigation
 
 menuToggle.addEventListener("click", function () {
     navLinks.classList.toggle("active");
@@ -22,9 +17,6 @@ navigationLinks.forEach(function (link) {
         navLinks.classList.remove("active");
     });
 });
-
-
-// Dark and Light Theme
 
 themeToggle.addEventListener("click", function () {
 
@@ -40,18 +32,12 @@ themeToggle.addEventListener("click", function () {
 
 });
 
-
-// Load Saved Theme
-
 var savedTheme = localStorage.getItem("portfolioTheme");
 
 if (savedTheme === "light") {
     document.body.classList.add("light-theme");
     themeToggle.textContent = "☾";
 }
-
-
-// Project Details Modal
 
 var projectButtons = document.querySelectorAll(".project-link");
 
@@ -69,9 +55,6 @@ projectButtons.forEach(function (button) {
 
 });
 
-
-// Close Modal
-
 modalClose.addEventListener("click", function () {
     projectModal.classList.remove("active");
 });
@@ -84,9 +67,6 @@ projectModal.addEventListener("click", function (event) {
 
 });
 
-
-// Close Modal with Escape Key
-
 document.addEventListener("keydown", function (event) {
 
     if (event.key === "Escape") {
@@ -94,9 +74,6 @@ document.addEventListener("keydown", function (event) {
     }
 
 });
-
-
-// Current Year
 
 document.getElementById("currentYear").textContent =
     new Date().getFullYear();

@@ -1,4 +1,3 @@
-
 var apiUrl = "https://fakestoreapi.com/products";
 
 var products = [];

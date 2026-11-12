@@ -53,7 +53,6 @@ button {
 }
 
 
-/* Navigation */
 
 .header {
     position: sticky;
@@ -143,9 +142,6 @@ button {
     font-size: 27px;
     cursor: pointer;
 }
-
-
-/* Hero */
 
 .hero {
     min-height: 650px;
@@ -243,9 +239,6 @@ button {
     color: var(--accent);
 }
 
-
-/* Profile Image */
-
 .hero-image {
     position: relative;
     display: flex;
@@ -295,9 +288,6 @@ button {
     font-size: 13px;
 }
 
-
-/* Stats */
-
 .stats-section {
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
@@ -331,9 +321,6 @@ button {
     color: var(--muted);
 }
 
-
-/* Common Sections */
-
 .section {
     padding-top: 105px;
     padding-bottom: 105px;
@@ -354,9 +341,6 @@ button {
     color: var(--muted);
     margin-top: 8px;
 }
-
-
-/* About */
 
 .about-content {
     display: grid;
@@ -409,9 +393,6 @@ button {
     font-size: 13px;
 }
 
-
-/* Skills */
-
 .skills-section {
     background: var(--surface);
 }
@@ -448,9 +429,6 @@ button {
     color: var(--muted);
     font-size: 12px;
 }
-
-
-/* Projects */
 
 .projects-grid {
     display: grid;
@@ -538,9 +516,6 @@ button {
     cursor: pointer;
 }
 
-
-/* Contact */
-
 .contact-section {
     background: var(--surface);
     border-top: 1px solid var(--border);
@@ -576,9 +551,6 @@ button {
     color: var(--accent);
 }
 
-
-/* Footer */
-
 .footer {
     border-top: 1px solid var(--border);
     padding: 25px 0;
@@ -595,9 +567,6 @@ button {
     color: var(--muted);
     font-size: 12px;
 }
-
-
-/* Modal */
 
 .modal {
     display: none;
@@ -641,9 +610,6 @@ button {
     font-size: 28px;
     cursor: pointer;
 }
-
-
-/* Responsive Design */
 
 @media (max-width: 850px) {
 

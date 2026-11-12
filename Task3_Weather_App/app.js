@@ -1,22 +1,16 @@
-
 var apiKey = "1e8a2b7ca4b58d7940716460e027d5aa";
-
 var cityInput = document.getElementById("cityInput");
 var searchButton = document.getElementById("searchButton");
 var message = document.getElementById("message");
-
 var cityName = document.getElementById("cityName");
 var dateElement = document.getElementById("date");
 var temperature = document.getElementById("temperature");
 var weatherCondition = document.getElementById("weatherCondition");
 var weatherIcon = document.getElementById("weatherIcon");
-
 var humidity = document.getElementById("humidity");
 var windSpeed = document.getElementById("windSpeed");
 var pressure = document.getElementById("pressure");
-
 var forecastContainer = document.getElementById("forecastContainer");
-
 searchButton.addEventListener("click", function () {
     var city = cityInput.value.trim();
 
